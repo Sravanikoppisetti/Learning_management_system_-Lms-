@@ -1,0 +1,2175 @@
+[
+    {
+        "Computer Systems": [
+            {
+                "Tiny Web Server": [
+                    {
+                        "Units": "Web Server",
+                        "Activities": [
+                            {
+                                "activity_type": "video",
+                                "activity_path": "https://www.youtube.com/watch?v=thJSev60yfg"
+                            },
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "HTTP",
+                        "Activities": [
+                            {
+                                "activity_type": "video",
+                                "activity_path": "https://www.youtube.com/watch?v=thJSev60yfg"
+                            },
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "MCQ",
+                        "Activities": {
+                            "activity_type": "quiz",
+                            "MCQ": {
+                                "activity_name": "Quiz-1",
+                                "activity_id": "A8",
+                                "activity_json": [
+                                    {
+                                        "activityType": "quiz",
+                                        "questions": [
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "Give tilde approximations for all the following quantities:<br><br>N + 1"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": true,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N+1"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q1"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "1 + 1/N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q2"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "(1 + 1/N )(1 + 2/N )"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q3"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "2N^3 - 15 N^2 + N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2N^3"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "15N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q4"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(2N )/lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(2N)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q5"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(N^2 + 1) / lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(N^2)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q6"
+                                            }
+                                        ],
+                                        "title": "Quiz-1"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "Units": "Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_id": "A2",
+                                "activity_name": "Assignment - 2",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Assignment - 2",
+                                        "text": "Assignment-2: Write a program that, given two sorted arrays of N int values, prints all elements that appear in both arrays, in sorted order. The running time of your program should be proportional to N in the worst case.  <b>(35 Marks)</b>"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Re-Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_id": "A3",
+                                "activity_name": "Assignment - 2",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Assignment - 2",
+                                        "text": "Assignment-2: Write a program that, given two sorted arrays of N int values, prints all elements that appear in both arrays, in sorted order. The running time of your program should be proportional to N in the worst case.  <b>(35 Marks)</b>"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "Static Content": [
+                    {
+                        "Units": "Walking through files & directories",
+                        "Activities": [
+                            {
+                                "activity_type": "video",
+                                "activity_path": "https://www.youtube.com/watch?v=thJSev60yfg"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Rendering Static Content",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "MCQ",
+                        "Activities": {
+                            "activity_type": "quiz",
+                            "MCQ": {
+                                "activity_name": "Quiz-1",
+                                "activity_id": "A8",
+                                "activity_json": [
+                                    {
+                                        "activityType": "quiz",
+                                        "questions": [
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "Give tilde approximations for all the following quantities:<br><br>N + 1"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": true,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N+1"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q1"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "1 + 1/N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q2"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "(1 + 1/N )(1 + 2/N )"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q3"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "2N^3 - 15 N^2 + N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2N^3"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "15N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q4"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(2N )/lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(2N)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q5"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(N^2 + 1) / lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(N^2)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q6"
+                                            }
+                                        ],
+                                        "title": "Quiz-1"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "Units": "Re-Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    }
+                ],
+                "Dynamic Content": [
+                    {
+                        "Units": "Project Overview",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Process",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Interprocess Communication",
+                        "Activities": [
+                            {
+                                "activity_type": "video",
+                                "activity_path": "https://www.youtube.com/watch?v=thJSev60yfg"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "MCQ",
+                        "Activities": {
+                            "activity_type": "quiz",
+                            "MCQ": {
+                                "activity_name": "Quiz-1",
+                                "activity_id": "A8",
+                                "activity_json": [
+                                    {
+                                        "activityType": "quiz",
+                                        "questions": [
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "Give tilde approximations for all the following quantities:<br><br>N + 1"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": true,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N+1"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q1"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "1 + 1/N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q2"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "(1 + 1/N )(1 + 2/N )"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q3"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "2N^3 - 15 N^2 + N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2N^3"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "15N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q4"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(2N )/lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(2N)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q5"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(N^2 + 1) / lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(N^2)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q6"
+                                            }
+                                        ],
+                                        "title": "Quiz-1"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "Units": "Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Re-Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    }
+                ],
+                "Concurrency": [
+                    {
+                        "Units": "Project Overview",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Concurrency",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Multi-processing",
+                        "Activities": [
+                            {
+                                "activity_type": "video",
+                                "activity_path": "https://www.youtube.com/watch?v=thJSev60yfg"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Multi-Threading",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "MCQ",
+                        "Activities": {
+                            "activity_type": "quiz",
+                            "MCQ": {
+                                "activity_name": "Quiz-1",
+                                "activity_id": "A8",
+                                "activity_json": [
+                                    {
+                                        "activityType": "quiz",
+                                        "questions": [
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "Give tilde approximations for all the following quantities:<br><br>N + 1"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": true,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N+1"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q1"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "1 + 1/N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q2"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "(1 + 1/N )(1 + 2/N )"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q3"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "2N^3 - 15 N^2 + N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2N^3"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "15N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q4"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(2N )/lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(2N)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q5"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(N^2 + 1) / lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(N^2)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q6"
+                                            }
+                                        ],
+                                        "title": "Quiz-1"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "Units": "Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Re-Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    }
+                ],
+                "Cache, Proxy": [
+                    {
+                        "Units": "Introduction",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Cache",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Proxy",
+                        "Activities": [
+                            {
+                                "activity_type": "video",
+                                "activity_path": "https://www.youtube.com/watch?v=thJSev60yfg"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "MCQ",
+                        "Activities": {
+                            "activity_type": "quiz",
+                            "MCQ": {
+                                "activity_name": "Quiz-1",
+                                "activity_id": "A8",
+                                "activity_json": [
+                                    {
+                                        "activityType": "quiz",
+                                        "questions": [
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "Give tilde approximations for all the following quantities:<br><br>N + 1"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": true,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N+1"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q1"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "1 + 1/N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q2"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "(1 + 1/N )(1 + 2/N )"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q3"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "2N^3 - 15 N^2 + N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2N^3"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "15N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q4"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(2N )/lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(2N)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q5"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(N^2 + 1) / lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(N^2)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q6"
+                                            }
+                                        ],
+                                        "title": "Quiz-1"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "Units": "Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Re-Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "Computer Science Principles and Programming": [
+            {
+                "Python Code Dissection": [
+                    {
+                        "Units": "Project Overview",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "GitHub & VS Code Setup",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Python Workspace",
+                        "Activities": [
+                            {
+                                "activity_type": "video",
+                                "activity_path": "https://www.youtube.com/watch?v=thJSev60yfg"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Code Dissection",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Code Review",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Data Types, Operators, Variables",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Function Calls",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Comparison Operators and If conditions",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Importing Libraries",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Command Line Arguments & Input Reading",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "MCQ",
+                        "Activities": {
+                            "activity_type": "quiz",
+                            "MCQ": {
+                                "activity_name": "Quiz-1",
+                                "activity_id": "A8",
+                                "activity_json": [
+                                    {
+                                        "activityType": "quiz",
+                                        "questions": [
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "Give tilde approximations for all the following quantities:<br><br>N + 1"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": true,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N+1"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q1"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "1 + 1/N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q2"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "(1 + 1/N )(1 + 2/N )"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q3"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "2N^3 - 15 N^2 + N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2N^3"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "15N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q4"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(2N )/lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(2N)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q5"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(N^2 + 1) / lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(N^2)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q6"
+                                            }
+                                        ],
+                                        "title": "Quiz-1"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "Units": "Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Re-Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    }
+                ],
+                "Python Code Writing": [
+                    {
+                        "Units": "Introduction",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Handling Errors",
+                        "Activities": [
+                            {
+                                "activity_type": "video",
+                                "activity_path": "https://www.youtube.com/watch?v=thJSev60yfg"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Function Definition",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Function Call Stack",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "MCQ",
+                        "Activities": {
+                            "activity_type": "quiz",
+                            "MCQ": {
+                                "activity_name": "Quiz-1",
+                                "activity_id": "A8",
+                                "activity_json": [
+                                    {
+                                        "activityType": "quiz",
+                                        "questions": [
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "Give tilde approximations for all the following quantities:<br><br>N + 1"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": true,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N+1"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q1"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "1 + 1/N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q2"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "(1 + 1/N )(1 + 2/N )"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q3"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "2N^3 - 15 N^2 + N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2N^3"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "15N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q4"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(2N )/lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(2N)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q5"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(N^2 + 1) / lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(N^2)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q6"
+                                            }
+                                        ],
+                                        "title": "Quiz-1"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "Units": "Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Re-Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    }
+                ],
+                "Battleships Project": [
+                    {
+                        "Units": "Introduction",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Introduction to Lists",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "2D Lists",
+                        "Activities": [
+                            {
+                                "activity_type": "video",
+                                "activity_path": "https://www.youtube.com/watch?v=thJSev60yfg"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "List Methods",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Data Representation: Number Systems",
+                        "Activities": [
+                            {
+                                "activity_type": "notes",
+                                "desc": "<b>Module Overview</b><br>In the previous unit, you have learned the importance of Algorithms and Data Structures and the Efficiency and order of growths. Data Structures are broadly classified into Linear Data Structures if the element forms a sequence and Non-linear Data Structures do not form a sequence. So we learn about linear data structures bags, stacks, queues in this module.<br><h3>Learning Objectives:</h3><ol><li>Describe Bags</li><li>Describe, and implement Stacks</li><li>Analyze the complexity of Stacks</li><li>Describe, and implement Queues</li><li>Analyze the complexity of Queues</li><li>Discuss applications of Stacks and Queues</li></ol>"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "MCQ",
+                        "Activities": {
+                            "activity_type": "quiz",
+                            "MCQ": {
+                                "activity_name": "Quiz-1",
+                                "activity_id": "A8",
+                                "activity_json": [
+                                    {
+                                        "activityType": "quiz",
+                                        "questions": [
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "Give tilde approximations for all the following quantities:<br><br>N + 1"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": true,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N+1"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q1"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "1 + 1/N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q2"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "(1 + 1/N )(1 + 2/N )"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^1/2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1/N+1"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q3"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "2N^3 - 15 N^2 + N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2N^3"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "15N^2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q4"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(2N )/lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(2N)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "2N"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg N"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q5"
+                                            },
+                                            {
+                                                "questionType": "checkbox",
+                                                "questionText": [
+                                                    {
+                                                        "text": "lg(N^2 + 1) / lg N"
+                                                    }
+                                                ],
+                                                "correct_feedback": "Correct",
+                                                "max_marks": 1,
+                                                "wrong_feedback": "Incorrect",
+                                                "options": [
+                                                    {
+                                                        "correct": false,
+                                                        "option": "lg(N^2)"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "N^2"
+                                                    },
+                                                    {
+                                                        "correct": true,
+                                                        "option": "2"
+                                                    },
+                                                    {
+                                                        "correct": false,
+                                                        "option": "1"
+                                                    }
+                                                ],
+                                                "question_id": "Q6"
+                                            }
+                                        ],
+                                        "title": "Quiz-1"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "Units": "Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    },
+                    {
+                        "Units": "Re-Submission",
+                        "Activities": [
+                            {
+                                "activity_type": "assessment",
+                                "activity_json": [
+                                    {
+                                        "activityType": "notes",
+                                        "title": "Bonus Problem",
+                                        "text": "Modify binary search so that it always returns the element with the smallest index that matches the search element (and still guarantees logarithmic running time)."
+                                    }
+                                ],
+                                "activity_name": "Bonus Problem"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
