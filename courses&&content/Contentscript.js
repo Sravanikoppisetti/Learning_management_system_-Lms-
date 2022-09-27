@@ -1,6 +1,6 @@
 function coursecontent(args){
     localStorage.setItem("selectedcourse",args);
-    location.href="../content.html";
+    location.href="./content.html";
   }
   
   console.log("xxx",localStorage.getItem("selectedcourse"));
