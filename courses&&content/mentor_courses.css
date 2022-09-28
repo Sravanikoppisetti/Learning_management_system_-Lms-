@@ -1,0 +1,123 @@
+/* submission */
+/* .dropdown-div{
+    text-align: center;
+    margin: 0px 20px 20px 20px;
+    border: 0;
+    background-color: lightseagreen;
+    padding: 10px;
+    width: 358px;
+}
+.dropdown-div a{
+    text-decoration: none;
+    background-color: lightseagreen;
+    text-align: center;
+    color: black;
+    padding: 10px;
+} */
+
+.card {
+    margin: 50px;
+    width: 500px;
+    padding: 1.5em 0.5em 0.5em;
+    text-align: center;
+    border-radius: 2px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+.card a{
+    background-color: #364789;
+    color: #eee;
+    width: 100%;
+    margin: 5px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+span{
+    float: right;
+    margin-top: 5px;
+}
+#submissionList{
+    margin-top: 50px;
+}
+h1{
+  background: #364789;
+  color: white;
+  text-align: center;
+}
+.submissionList table{
+    width: 100%;
+    padding: 20px; 
+    margin: 20px;
+}
+/* courses content */
+body {
+    font-family: 'Nunito' sans-serif;
+}
+body {
+    /* background-color: #ffe9e3;   */
+    background-color: white;
+}
+
+.coursesCard {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:4rem;
+    padding:1rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;   
+}
+
+
+.coursesCard .box{
+      position:relative;
+      height:460px;
+      width: 250px;
+      box-shadow: 0 7px 7px rgba(0,0,0,0.4);
+      overflow: hidden;
+      align-items: center;
+      display: block;
+      justify-content: center;
+      border-radius: 0.5rem;
+
+}
+.coursesCard .box:hover{
+    border-bottom: 7px solid #05004e;
+
+}
+.coursesCard .box .imgbox{
+    width:100%;
+    height:50%;
+    /* margin-bottom: 1rem; */
+}
+.coursesCard .box .imgbox img{
+    height:100%;
+    width:100%;
+}
+.coursesCard .box .card-body{
+    text-align: left;
+    font-size: 17px;
+    line-height: 2rem;
+    /* font-weight: bold; */
+    margin:0;
+    padding:5px;
+}
+
+.coursesCard .box .card-body button{
+    position:static;
+    padding:0.5rem 1rem;
+    background: transparent;
+    outline:none;
+    border:none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #007cb9;
+    color:#eee;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    margin-left:55px;
+    /* margin-top: 0.5rem; */
+}
