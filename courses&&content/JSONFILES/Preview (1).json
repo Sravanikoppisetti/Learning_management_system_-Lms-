@@ -1,0 +1,268 @@
+[
+    {
+        "CourseName": "Computer Systems",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 14,
+        "CourseDeadline": "26/03/2022",
+        "Tags": [
+            "Computer Organization",
+            "Operating Systems"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device. A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Tiny Web Server",
+            "Static Content",
+            "Dynamic Content",
+            "Concurrency",
+            "Cache, Proxy"
+        ]
+    },
+    {
+        "CourseName": "Computer Science Principles and Programming",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "01/04/2022",
+        "Tags": [
+            "Python Programming",
+            "Coding",
+            "Games"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Python Code Dissection",
+            "Python Code Writing",
+            "Battleships Project"
+        ]
+    },
+    {
+        "CourseName": "IT Workshop",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "10/08/2022",
+        "Tags": [
+            "Programming",
+            "Coding",
+            "IT"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Virtual chalkboard",
+            "Evaluate input methods",
+            "Create open-source datasets",
+            "Automate repititive tasks",
+            "Online presence"
+        ]
+    },
+    {
+        "CourseName": "Introduction to Data Science",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "10/08/2022",
+        "Tags": [
+            "Programming",
+            "Coding",
+            "IT",
+            "DS"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Project Ice Cream",
+            "Project Social Media Analytics",
+            "Project Language Modelling",
+            "Project Protein Sequencing"
+        ]
+    },
+    {
+        "CourseName": "Algorithms and Data Structures in Java",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "30/01/2022",
+        "Tags": [
+            "Programming",
+            "Coding",
+            "IT",
+            "ADS",
+            "Java"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Java code dissection & writing",
+            "Elementary sorting algorithms",
+            "Priority Queues",
+            "Trees",
+            "Graphs"
+        ]
+    },
+    {
+        "CourseName": "Full Stack Development",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "19/05/2022",
+        "Tags": [
+            "Programming",
+            "Coding",
+            "IT",
+            "FSD"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Web Frontend",
+            "Backend",
+            "Databases",
+            "Continuous Integration & Continuous Delivery"
+        ]
+    },
+    {
+        "CourseName": "Data Science",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "10/08/2022",
+        "Tags": [
+            "Programming",
+            "Coding",
+            "IT",
+            "DS"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Statistics",
+            "Data_manipulation",
+            "Databases",
+            "Data_vizualization"
+        ]
+    },
+    {
+        "CourseName": "Artificial Intelligence",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "10/08/2022",
+        "Tags": [
+            "Programming",
+            "Coding",
+            "IT",
+            "AI",
+            "ML"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Data Fairness and Bias",
+            "AI Models & Limitation",
+            "Privacy and Convenience",
+            "Ethics in Action"
+        ]
+    },
+    {
+        "CourseName": "Machine Learning",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "10/08/2022",
+        "Tags": [
+            "Programming",
+            "Coding",
+            "IT",
+            "Algorithms"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Exploratory Data Analysis for Machine Learning",
+            "Supervised Machine Learning: Regression",
+            "Supervised Machine Learning: Classification",
+            "Unsupervised Machine Learning",
+            "Deep Learning and Reinforcement Learning",
+            "Specialized Models: Time Series and Survival Analysis"
+        ]
+    },
+    {
+        "CourseName": "Cyber Security",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "10/08/2022",
+        "Tags": [
+            "Programming",
+            "Coding",
+            "IT",
+            "Security"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Usable Security",
+            "Software Security",
+            "Cryptography",
+            "Hardware Security"
+        ]
+    },
+    {
+        "CourseName": "LSRW",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "10/08/2022",
+        "Tags": [
+            "Soft Skills"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Reading",
+            "Listening",
+            "Task"
+        ]
+    },
+    {
+        "CourseName": "LSRW1",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "10/08/2022",
+        "Tags": [
+            "Soft Skills"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Reading_Level_2",
+            "Listening_2",
+            "Task"
+        ]
+    },
+    {
+        "CourseName": "LSRW2",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "10/08/2022",
+        "Tags": [
+            "Soft Skills"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Reading_Level_3",
+            "Listening_3",
+            "Task"
+        ]
+    },
+    {
+        "CourseName": "LSRW3",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "10/08/2022",
+        "Tags": [
+            "Soft Skills"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Reading_Level_4",
+            "Listening_4",
+            "Task"
+        ]
+    },
+    {
+        "CourseName": "Professional Communication Skills",
+        "CourseImage": "CS.jpg",
+        "CourseCredits": 4,
+        "CourseDeadline": "10/08/2022",
+        "Tags": [
+            "Soft Skills"
+        ],
+        "Description": "A computer system is a set of integrated devices that input, output, process, and store data and information. Computer systems are currently built around at least one digital processing device.A computer along with additional hardware and software together is called a computer system. A computer system primarily comprises a central processing unit (CPU), memory, input/output devices and storage devices. All these components function together as a single unit to deliver the desired output.",
+        "ModuleName": [
+            "Email writing",
+            "Effective Communication"
+        ]
+    }
+]

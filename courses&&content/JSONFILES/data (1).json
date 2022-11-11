@@ -1,0 +1,49 @@
+[
+    {
+        "coursename":"Artifical Intelliengence",
+        "startedon":"04/09/2020",
+        "image":"./images/ai.jpg"
+    },
+
+    {
+        "coursename":"Computer Systems",
+        "startedon":"11/06/2020",
+        "image":"./images/cs.jpg"
+    },
+
+    {
+        "coursename":"Cyber Security",
+        "startedon":"20/05/2020",
+        "image":"./images/cyb.jpg"
+    },
+
+    {
+        "coursename":"FullStackDevelopment",
+        "startedon":"30/09/2020",
+        "image":"./images/fsd.png"
+    },
+
+    {
+        "coursename":"Data Structures",
+        "startedon":"12/09/2020",
+        "image":"./images/ds.jpg"
+    },
+
+    {
+        "coursename":"Machine Learning",
+        "startedon":"27/07/2020",
+        "image":"./images/Computer vision.jpg"
+    },
+
+    {
+        "coursename":"IT Workshop",
+        "startedon":"04/09/2020",
+        "image":"./images/CSPP.jpg"
+    },
+    
+    {
+        "coursename":"Data Science",
+        "startedon":"04/09/2020",
+        "image":"./images/IDS.jpg"
+    }
+]
