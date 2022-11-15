@@ -233,6 +233,7 @@ fetch("./JSONFILES/activities (1).json")
 
 // on click event for dropdown toggle
 function getid(btn){
+  console.log("btn",btn)
       var clicked_dropdown= document.getElementById("dropdown-btn"+btn)
       var dropdownContent = document.getElementById(btn);
       if (dropdownContent.style.display == "none") {
@@ -242,6 +243,7 @@ function getid(btn){
         dropdownContent.style.display = "none";
         clicked_dropdown.style.color= "#818181";
       }
+
 }
 
 // onclick event  to display content in right palate based on  dropdownitem click
