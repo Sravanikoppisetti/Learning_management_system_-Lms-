@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>content</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+
+    body {
+        font-family: "Lato", sans-serif;
+      }
+      
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(40, 39, 39);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      
+      .sidenav a, .dropdown-btn {
+          padding: 6px 8px 6px 16px;
+          text-decoration: none;
+          font-size: 20px;
+          color: #818181;
+          display: block;
+          border: none;
+          background: none;
+          width: 100%;
+          text-align: left;
+          cursor: pointer;
+          outline: none;
+      }
+      
+      
+        /* Optional: Style the caret down icon */
+        .fa-caret-down {
+          float: right;
+          padding-right: 8px;
+        }
+        
+      
+      
+      /* On mouse-over */
+      .sidenav a:hover, .dropdown-btn:hover {
+          color: #f1f1f1;
+        }
+        
+      
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        left: 135px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+      
+      #main {
+        transition: margin-left .5s;
+        /* padding: 16px; */
+      }
+      
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+
+</style>
+
+
+
+   
+    <div id="mySidenav" class="sidenav">
+        
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div>
+            {% for m,n in lessondic.items %} 
+            {% for key,value in n.items %} 
+            <button class="dropdown-btn" id= "dropdown_btn{{m}}" style="color: rgb(242, 170, 76);" onclick="getid({{m}})" > {{key}}
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-items" id="{{m}}" style="display : block"; >
+                
+               
+                {% for lensson in  value %}    
+                    <a  id="{{lensson}}" ><h6 style="color:white">{{lensson}}</h6></a>
+                {% endfor %}
+        </div>
+        {% endfor %}
+        {% endfor %}
+        </div>
+        
+    </div>
+    <body>
+
+
+    <div id="main">
+        
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top "  style="background-color:#364789;color: white;">
+            <div class="container-fluid">
+                
+                <span  class="navbar-brand me-4" style="font-family:Arial, Helvetica, sans-serif;font-size:30px; color: aliceblue;" ><i class='fa fa fa-book'  onclick="openNav()"></i>LMS</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: aliceblue; font-size:large;" href="./courses.html"><strong>Courses</strong></a>
+                        </li>
+                      
+                        <li class="nav-item">
+                          <a class="nav-link" style="color: aliceblue; font-size:large;"href="https://thumbs.dreamstime.com/b/work-progress-loading-bar-concept-hand-drawing-work-progress-loading-bar-concept-marker-transparent-wipe-board-167678984.jpg"><strong>Progress</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: aliceblue; font-size:large;"href=""><strong>About</strong></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color: aliceblue; font-size:large;"href=""><strong>Help</strong></a>
+                        </li>
+
+                    </ul >
+                    
+    
+                    <div class="temp">
+                        <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" style="color: aliceblue; font-size:large;"href=""><strong>Logout</strong></a>
+                            </li>
+                            
+                        </ul>
+                      </div>
+                </div>  
+          </nav> 
+        <div> 
+      
+        <div  id="defaultopening" style="margin: 5%;"> 
+            
+            <h3 style="text-align:center; margin-bottom: 2%;">Welcome to the course</h3>
+            <h5 style="text-align:center; margin-bottom: 5%;"><strong> Consistent effort in a work or studies will eventually lead you to success.</strong></h5>
+            <h5>Principles on which Consistency is based
+                <ul>
+                    <li>
+                        Patience: Patience is the key to consistency: we have to be patient and focus our efforts diligently in one direction in order to produce quality, lasting, tangible results.
+                    </li>
+                    <li>
+                        Belief: Likewise, failing to believe in what you are doing will definitely kill your consistency in doing it. Or, to look at it another way, make you much more consistent at NOT doing it.Your consistency, or lack thereof, in what you do is a good indication of your true belief about it.
+                    </li>
+                    <li>
+                        Value: The perceived value for  a particular thing, which results from the action you need to take should be taken into consideration. Everything that we do is generally motivated by one of two things: fear and desire.
+                    </li>    
+                </ul>
+            </h5>
+            
+            <h5>Simple tips to develop consistency and achieve success
+                <ul>
+                    <li>
+                        Reminders
+                    </li>
+                    <li>
+                        Reward yourself when you get even a small task done
+                    </li>
+                    <li>
+                        Mistakes means correcting themEffectively manage your time and minimize distractions
+                    </li>
+                    <li>
+                        Use motivational tools to keep going
+                    </li>
+                    <li>
+                        Give yourself time to see changes
+                    </li>
+                </ul>
+            </h5>
+        </div>      
+        
+        <div id="content_display_div" style="margin: 5%;"></div>
+        
+    </div>
+      
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script>
+
+// side navbar
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+}
+
+
+function getid(btnnn){
+    console.log(btnnn)
+    var clicked_dropdown= document.getElementById("dropdown_btn"+btnnn)
+    var dropdownContent = document.getElementById(btnnn);
+    if (dropdownContent.style.display == "none") {
+      dropdownContent.style.display ="block";
+      clicked_dropdown.style.color="#F2AA4CFF";
+    } else {
+      dropdownContent.style.display = "none";
+      clicked_dropdown.style.color= "#818181";
+    }
+}
+    {% comment %} / on click event for dropdown toggle {% endcomment %}
+{% comment %} function getid(btn){
+      var y="dropdown-"+btn;
+      console.log(y)
+      var clicked_dropdown= document.getElementById(y)
+      var xxxx= btn+"-content";
+      console.log(xxx)
+      var dropdownContent = document.getElementById(x);
+      if (dropdownContent.style.display == "none") {
+        dropdownContent.style.display ="block";
+        clicked_dropdown.style.color="#F2AA4CFF";
+      } else {
+        dropdownContent.style.display = "none";
+        clicked_dropdown.style.color= "#818181";
+      }
+} {% endcomment %}
+</script> 
+</body>
+</html>

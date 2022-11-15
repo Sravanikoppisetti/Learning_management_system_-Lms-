@@ -10,5 +10,5 @@ urlpatterns = [
    path('course', views.courses),
    path("coursesearch", views.search),
    path("<int:course_id>", views.coursecontent, name="coursecontent"),
-   path("<str:content>", views.contentdisplay, name="contentdispaly") 
+   # path("<str:content>", views.contentdisplay, name="contentdispaly") 
 ]
