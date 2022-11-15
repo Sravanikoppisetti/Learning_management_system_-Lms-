@@ -2,11 +2,13 @@
 from django.http import HttpResponse,HttpResponseRedirect
 from ssl import AlertDescription
 from django.shortcuts import redirect, render
-from . models import Signup
 from django.contrib import auth
 from django.http import HttpResponse
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.forms import AuthenticationForm
+from .models import Signup, Courses, Chapters,Lesson,Assignmenttopic,MCQtopic,lessncontent
+
+
 
 # Create your views here.
 def signin(request):
@@ -71,5 +73,53 @@ def logged(request):
 def register(request):
     return render(request, 'lms/register.html')
 
-    
 
+
+def courses(request):
+    return render(request, "lms/courses.html",{
+        "courses": Courses.objects.all()
+    })
+
+
+def search(request):
+    searchedcourse=request.GET['searchcourse']
+    coursecard=Courses.objects.filter(coursename__icontains=searchedcourse)
+
+    return render(request, "lms/coursessearch.html",{
+        "searchedcourse": coursecard
+    })
+
+
+def coursecontent(request, course_id):
+    content=Courses.objects.get(pk=course_id)
+    X=Chapters.objects.filter(course__courseid=1)
+    print("CC",course_id,content)
+    dicc={}
+    dic={}
+    for chapters in X:
+        y=chapters.chaptername
+        idd=chapters.chapterid
+        print("y",type(y),y)
+        cx= Lesson.objects.filter(chapter__chaptername=y)
+        ass= Assignmenttopic.objects.filter(chapter__chaptername=y)
+        mcqqq= MCQtopic.objects.filter(chapter__chaptername=y)
+        print("cx",cx)
+
+        l=[]
+        for lessn in cx:
+            V=lessn.lessonname
+            l.append(V)
+        for assignment in ass:
+            a=assignment.Assignmnetname
+            l.append(a)
+        for m in mcqqq:
+            a=m.MCQtopicname
+            l.append(a)
+        dicc[y]=l
+        dic[idd]=dicc
+        dicc={}
+    # print("sample",dic)
+    
+    return render(request, "lms/coursecontent.html",{
+        "lessondic":dic
+    })
