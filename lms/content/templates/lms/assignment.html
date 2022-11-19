@@ -1,0 +1,24 @@
+{% extends 'lms/coursecontent.html' %}
+{%load static%}
+
+{% block task%}
+{% for m in task%}
+
+<div>
+    <h3><B>Assignment</B></h3>
+    <div>
+        {{m.task|safe}} 
+    </div><br>
+      
+   <div>
+        <h6>submit the document below:-</h6>
+        <form>
+            <textarea rows="4" cols="100" name="comment" form="usrform">Paste the document link here...</textarea>       
+        </form>
+        <button type="button" class="btn btn-primary">Submit</button>
+    </div>
+     
+    </div> 
+</div>
+{% endfor%}
+{%endblock%}

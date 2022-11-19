@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -78,7 +79,7 @@
 </style>
 
 
-
+<body onload="display()" >
    
     <div id="mySidenav" class="sidenav">
         
@@ -93,7 +94,7 @@
                 
                
                 {% for lensson in  value %}    
-                    <a  id="{{lensson}}" ><h6 style="color:white">{{lensson}}</h6></a>
+                    <a  id="{{lensson}}" href="{% url 'contentdispaly' courseid m lensson %}"><h6 style="color:white" >{{lensson}}</h6></a>
                 {% endfor %}
         </div>
         {% endfor %}
@@ -143,51 +144,25 @@
                 </div>  
           </nav> 
         <div> 
-      
-        <div  id="defaultopening" style="margin: 5%;"> 
-            
-            <h3 style="text-align:center; margin-bottom: 2%;">Welcome to the course</h3>
-            <h5 style="text-align:center; margin-bottom: 5%;"><strong> Consistent effort in a work or studies will eventually lead you to success.</strong></h5>
-            <h5>Principles on which Consistency is based
-                <ul>
-                    <li>
-                        Patience: Patience is the key to consistency: we have to be patient and focus our efforts diligently in one direction in order to produce quality, lasting, tangible results.
-                    </li>
-                    <li>
-                        Belief: Likewise, failing to believe in what you are doing will definitely kill your consistency in doing it. Or, to look at it another way, make you much more consistent at NOT doing it.Your consistency, or lack thereof, in what you do is a good indication of your true belief about it.
-                    </li>
-                    <li>
-                        Value: The perceived value for  a particular thing, which results from the action you need to take should be taken into consideration. Everything that we do is generally motivated by one of two things: fear and desire.
-                    </li>    
-                </ul>
-            </h5>
-            
-            <h5>Simple tips to develop consistency and achieve success
-                <ul>
-                    <li>
-                        Reminders
-                    </li>
-                    <li>
-                        Reward yourself when you get even a small task done
-                    </li>
-                    <li>
-                        Mistakes means correcting themEffectively manage your time and minimize distractions
-                    </li>
-                    <li>
-                        Use motivational tools to keep going
-                    </li>
-                    <li>
-                        Give yourself time to see changes
-                    </li>
-                </ul>
-            </h5>
-        </div>      
+            {% block lessoncontent1%}
+            {%endblock%}
         
-        <div id="content_display_div" style="margin: 5%;"></div>
+        <div id="content_display_div" style="margin: 5%;">
+           
+                {% block lessoncontent%}
+
+                {%endblock%}
+                {% block mcq%}
+                {%endblock%}
+                {% block task%}
+                {%endblock%}
+         
+
+        </div>
         
     </div>
       
-
+</body>
 
 
 
@@ -218,22 +193,25 @@ function getid(btnnn){
       clicked_dropdown.style.color= "#818181";
     }
 }
-    {% comment %} / on click event for dropdown toggle {% endcomment %}
-{% comment %} function getid(btn){
-      var y="dropdown-"+btn;
-      console.log(y)
-      var clicked_dropdown= document.getElementById(y)
-      var xxxx= btn+"-content";
-      console.log(xxx)
-      var dropdownContent = document.getElementById(x);
-      if (dropdownContent.style.display == "none") {
-        dropdownContent.style.display ="block";
-        clicked_dropdown.style.color="#F2AA4CFF";
-      } else {
-        dropdownContent.style.display = "none";
-        clicked_dropdown.style.color= "#818181";
-      }
-} {% endcomment %}
+
+function view_mcq_answ(selectedoption){
+    document.getElementById(selectedoption.id).style.borderColor="green";
+    // clicked option status(whether it is correct or wrong need to dispaly it )
+    var itag=document.getElementById(selectedoption.id).children[1];
+    document.getElementById(itag.id).style.display="block";
+    // Suppose if the user clicked wrong answer then to display correct option 
+    if ((selectedoption.className)!="True"){
+      maindivid=document.getElementById(selectedoption.id).parentElement;
+      var total_opt= document.getElementById(maindivid.id).children.length;
+       for (var s=0; s<total_opt;s++){
+        optionsdiv=document.getElementById(maindivid.id).children[s];
+        if (optionsdiv.className=="True"){
+          var div_i=document.getElementById(optionsdiv.id).children[1];
+        document.getElementById(div_i.id).style.display="block";
+        }  
+    }
+  }
+}
 </script> 
 </body>
 </html>
