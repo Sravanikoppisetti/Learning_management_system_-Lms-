@@ -90,21 +90,17 @@ def search(request):
     })
 
 
-def coursecontent(request, course_id):
-    content=Courses.objects.get(pk=course_id)
-    X=Chapters.objects.filter(course__courseid=1)
-    print("CC",course_id,content)
+def cont(course_id):
+    X=Chapters.objects.filter(course__courseid=course_id)
+    # print("CC",course_id)
     dicc={}
     dic={}
     for chapters in X:
         y=chapters.chaptername
         idd=chapters.chapterid
-        print("y",type(y),y)
         cx= Lesson.objects.filter(chapter__chaptername=y)
         ass= Assignmenttopic.objects.filter(chapter__chaptername=y)
         mcqqq= MCQtopic.objects.filter(chapter__chaptername=y)
-        print("cx",cx)
-
         l=[]
         for lessn in cx:
             V=lessn.lessonname
@@ -118,8 +114,40 @@ def coursecontent(request, course_id):
         dicc[y]=l
         dic[idd]=dicc
         dicc={}
-    # print("sample",dic)
-    
-    return render(request, "lms/coursecontent.html",{
-        "lessondic":dic
+    return dic
+
+
+def coursecontent(request, course_id):
+    data=cont(course_id)
+    return render(request, "lms/coursedefaultpage.html",{
+        "courseid": course_id,
+        "lessondic":data
     })
+
+
+def contentdisplay(request,courseid,chapid, content):
+    # print("courseid",courseid,chapid, content)
+    data=cont(courseid)
+    if (lessncontent.objects.filter(lesson__chapter__course__courseid=courseid,lesson__chapter__chapterid=chapid,lesson__lessonname=content).exists()):
+        content=lessncontent.objects.filter(lesson__chapter__course__courseid=courseid,lesson__chapter__chapterid=chapid,lesson__lessonname=content)
+        return render(request,"lms/lesson.html",{
+            "courseid": courseid,
+            "lessondic":data,
+            "content":content
+        })
+   
+    elif (mcqansw.objects.filter(mcqs__chapter__course__courseid=courseid,mcqs__chapter__chapterid=chapid,mcqs__MCQtopicname=content).exists()):
+        content=mcqansw.objects.filter(mcqs__chapter__course__courseid=courseid,mcqs__chapter__chapterid=chapid,mcqs__MCQtopicname=content)  
+        return render(request,"lms/mcq.html",{
+            "courseid": courseid,
+            "lessondic":data,
+            "content":content
+        })
+
+    elif (assignmenttask.objects.filter(assignment__chapter__course__courseid=courseid,assignment__chapter__chapterid=chapid,assignment__Assignmnetname=content).exists()):
+            task=assignmenttask.objects.filter(assignment__chapter__course__courseid=courseid,assignment__chapter__chapterid=chapid,assignment__Assignmnetname=content) 
+            return render(request,"lms/assignment.html",{
+                "courseid": courseid,
+                "lessondic":data,
+                "task":task
+            })
