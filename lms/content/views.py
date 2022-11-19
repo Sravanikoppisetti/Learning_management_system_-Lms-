@@ -6,7 +6,7 @@ from django.contrib import auth
 from django.http import HttpResponse
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.forms import AuthenticationForm
-from .models import Signup, Courses, Chapters,Lesson,Assignmenttopic,MCQtopic,lessncontent
+from .models import Signup, Courses, Chapters,Lesson,Assignmenttopic,MCQtopic,lessncontent,mcqansw,assignmenttask
 
 
 
