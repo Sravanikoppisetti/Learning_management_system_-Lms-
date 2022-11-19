@@ -82,7 +82,7 @@ class lessncontent(models.Model):
     def __str__(self):
         return  self.video
     
-class mcq(models.Model):
+class mcqansw(models.Model):
     mcqid=models.IntegerField(primary_key=True)
     question= RichTextField(blank=True,null=True)
     option1=RichTextField(blank=True,null=True)
@@ -93,8 +93,18 @@ class mcq(models.Model):
     opt3answ=models.BooleanField(default=False)
     option4=RichTextField(blank=True,null=True)
     opt4answ=models.BooleanField(default=False)
-    lesson=models.ForeignKey(Lesson, on_delete=models.CASCADE)
+    mcqs=models.ForeignKey(MCQtopic, on_delete=models.CASCADE)
 
     def __str__(self):
         return  self.question
+
+class assignmenttask(models.Model):
+    taskid=models.IntegerField(primary_key=True)
+    task= RichTextField(blank=True,null=True)
+    assignment=models.ForeignKey(Assignmenttopic, on_delete=models.CASCADE)
+    score=models.IntegerField(default=0)
+    Feedback=models.TextField(default="Enter here")
+
+    def __str__(self):
+        return  self.task
     
