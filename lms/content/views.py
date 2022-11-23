@@ -7,7 +7,7 @@ from django.http import HttpResponse
 from django.contrib.auth import authenticate, login
 from django.contrib.auth.forms import AuthenticationForm
 from .models import Signup, Courses, Chapters,Lesson,Assignmenttopic,MCQtopic,lessncontent,mcqansw,assignmenttask
-
+from django.db.models import Q
 
 
 # Create your views here.
@@ -126,7 +126,6 @@ def coursecontent(request, course_id):
 
 
 def contentdisplay(request,courseid,chapid, content):
-    # print("courseid",courseid,chapid, content)
     data=cont(courseid)
     if (lessncontent.objects.filter(lesson__chapter__course__courseid=courseid,lesson__chapter__chapterid=chapid,lesson__lessonname=content).exists()):
         content=lessncontent.objects.filter(lesson__chapter__course__courseid=courseid,lesson__chapter__chapterid=chapid,lesson__lessonname=content)

@@ -195,20 +195,17 @@ function getid(btnnn){
 }
 
 function view_mcq_answ(selectedoption){
-    document.getElementById(selectedoption.id).style.borderColor="green";
-    // clicked option status(whether it is correct or wrong need to dispaly it )
-    var itag=document.getElementById(selectedoption.id).children[1];
-    document.getElementById(itag.id).style.display="block";
-    // Suppose if the user clicked wrong answer then to display correct option 
-    if ((selectedoption.className)!="True"){
-      maindivid=document.getElementById(selectedoption.id).parentElement;
-      var total_opt= document.getElementById(maindivid.id).children.length;
-       for (var s=0; s<total_opt;s++){
-        optionsdiv=document.getElementById(maindivid.id).children[s];
-        if (optionsdiv.className=="True"){
-          var div_i=document.getElementById(optionsdiv.id).children[1];
-        document.getElementById(div_i.id).style.display="block";
-        }  
+  document.getElementById(selectedoption).style.borderColor="green"; 
+  var x=document.getElementById(selectedoption).parentElement;
+  for(var s=1; s<5; s++){
+    var optionid=x.id+s;
+    optionsdiv=document.getElementById(optionid).children[1];
+    var t= optionid+"p";
+    if (optionsdiv.className=="True"){
+      document.getElementById(t).children[0].style.display="block";
+    }
+    else if ((optionsdiv.className=="False")&(optionid==selectedoption)){
+      document.getElementById(t).children[1].style.display="block";
     }
   }
 }

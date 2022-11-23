@@ -1,0 +1,56 @@
+{% extends 'lms/coursecontent.html' %}
+{%load static%}
+
+{% block mcq%}
+<h3><B><u>Choose</u> <u>the</u> <u>corect</u> <u>answers</u> :-</B></u></h3>
+<ol>
+{% for m in content%}
+<div>
+    <li>
+    <div id="{{m.mcqid|safe}}" style="font-size: 20px; font-weight: 200; margin: 1%;">
+        <span >{{m.question|safe}}</span>
+    </div>
+
+    
+    <div id="{{m.mcqid|safe}}opt">
+
+
+        <div class="opt1"  id="{{m.mcqid|safe}}opt1" style="display:flex;justify-content:space-between;padding:10px;width:50%;border: 2px solid #84c5fe; border-radius: 12px;margin-bottom:2%"  onclick="view_mcq_answ(id)">
+            {{m.option1|safe}}
+            <p id="{{m.mcqid|safe}}opt1p" class="{{m.opt1answ}}">
+                <i class="fa fa-check-circle" style="font-size: 24px; color: darkseagreen;display: none;"></i>
+                <i class="fa fa-times-circle" style="font-size: 24px; color: red;display: none;"></i>
+            </p>
+        </div>
+        <div class="opt2"  id="{{m.mcqid|safe}}opt2" style="display:flex;justify-content:space-between;padding:10px;width:50%;border: 2px solid #84c5fe; border-radius: 12px;margin-bottom:2%"  onclick="view_mcq_answ(id)">
+            {{m.option2|safe}}
+            <p id="{{m.mcqid|safe}}opt2p" class="{{m.opt2answ}}">
+                <i class="fa fa-check-circle"  style="font-size: 24px; color: darkseagreen;display: none;"></i>
+                <i class="fa fa-times-circle"  style="font-size: 24px; color: red;display: none;"></i>
+            </p>
+        </div>
+        <div class="opt3"  id="{{m.mcqid|safe}}opt3" style="display:flex;justify-content:space-between;padding:10px;width:50%;border: 2px solid #84c5fe; border-radius: 12px;margin-bottom:2%"  onclick="view_mcq_answ(id)">
+            {{m.option3|safe}}
+            <p id="{{m.mcqid|safe}}opt3p" class="{{m.opt3answ}}">
+                <i class="fa fa-check-circle" style="font-size: 24px; color: darkseagreen;display: none;"></i>
+                <i class="fa fa-times-circle"  style="font-size: 24px; color: red;display: none;"></i>
+            </p>
+        </div>
+        <div class="opt4"  id="{{m.mcqid|safe}}opt4" style="display:flex;justify-content:space-between;padding:10px;width:50%;border: 2px solid #84c5fe; border-radius: 12px;margin-bottom:2%"  onclick="view_mcq_answ(id)">
+            {{m.option4|safe}}
+            <p id="{{m.mcqid|safe}}opt4p" class="{{m.opt4answ}}">
+                <i class="fa fa-check-circle"  style="font-size: 24px; color: darkseagreen;display: none;"></i>
+                <i class="fa fa-times-circle"  style="font-size: 24px; color: red;display: none;"></i>
+            </p>
+        </div>
+    </div>
+
+    
+</li>
+</div>
+{% endfor%}
+</ol>
+
+
+
+{%endblock%}
