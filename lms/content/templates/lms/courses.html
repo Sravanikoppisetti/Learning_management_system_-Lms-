@@ -102,17 +102,17 @@ body {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                      <a class="nav-link" style="color: aliceblue; font-size:large;" href="./courses.html"><strong>Courses</strong></a>
+                      <a class="nav-link" style="color: aliceblue; font-size:large;"  href="{% url 'course' %}"><strong>Courses</strong></a>
                   </li>
                 
                   <li class="nav-item">
                     <a class="nav-link" style="color: aliceblue; font-size:large;"href="https://thumbs.dreamstime.com/b/work-progress-loading-bar-concept-hand-drawing-work-progress-loading-bar-concept-marker-transparent-wipe-board-167678984.jpg"><strong>Progress</strong></a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" style="color: aliceblue; font-size:large;"href=""><strong>About</strong></a>
+                      <a class="nav-link" style="color: aliceblue; font-size:large;" href="" ><strong>About</strong></a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" style="color: aliceblue; font-size:large;"href="./helpline.html"><strong>Help</strong></a>
+                      <a class="nav-link" style="color: aliceblue; font-size:large;" href="{% url 'help' %}" ><strong>Help</strong></a>
                   </li>
 
               </ul >
@@ -126,7 +126,7 @@ body {
                   <ul class="navbar-nav me-auto">
                       
                       <li class="nav-item">
-                          <a class="nav-link" style="color: aliceblue; font-size:large;"href=""><strong>Logout</strong></a>
+                          <a class="nav-link" style="color: aliceblue; font-size:large;"  href="{% url 'login' %}"><strong>Logout</strong></a>
                       </li>
                   </ul>
                 </div>

@@ -9,7 +9,6 @@ from django.contrib.auth.forms import AuthenticationForm
 from .models import Signup, Courses, Chapters,Lesson,Assignmenttopic,MCQtopic,lessncontent,mcqansw,assignmenttask
 from django.db.models import Q
 
-
 # Create your views here.
 def signin(request):
     if request.method == 'POST':
@@ -19,6 +18,7 @@ def signin(request):
             print("hii")
             uid = Signup.objects.get(user_name=Username)
             pid= Signup.objects.get(password=password)
+            courses= Courses.objects.all()
 
             if Signup.objects.filter(user_name=Username).exists():
                 print("hello")
@@ -26,9 +26,11 @@ def signin(request):
                     print("ok")
                     if uid==pid:
                         context={
-                            "user_name":Username
+                            "user_name":Username,
+                            "courses":courses
                         }
-                        return render(request, 'lms/logged.html',context)
+                        
+                        return render(request, 'lms/courses.html',context)
                     else:
                         return HttpResponse("The password you entered does not match to this username")
                 else:
@@ -68,7 +70,7 @@ def signup(request):
         return render(request, 'lms/signup.html')
 
 def logged(request):
-    return render(request, 'lms/logged.html')
+    return render(request, 'lms/courses.html')
 
 def register(request):
     return render(request, 'lms/register.html')
@@ -150,3 +152,8 @@ def contentdisplay(request,courseid,chapid, content):
                 "lessondic":data,
                 "task":task
             })
+
+
+
+def help(request):
+    return render(request, "lms/helpline.html")
